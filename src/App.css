@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.phone {
+    height: 100px;
+    width: 100px;
+}
+
+.mail {
+    height: 100px;
+    width: 100px;
+}
+
+.insta {
+    height: 100px;
+    width: 100px;
+}
+
+.fb {
+    height: 100px;
+    width: 100px;
+}
+
+.mainLogo {
+    height: 30px;
+    width: 30px;
+}
