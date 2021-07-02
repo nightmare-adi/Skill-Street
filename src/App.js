@@ -1,7 +1,7 @@
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 import React, { Component } from 'react';
-import Events from './Components/Events';
+import About from './Components/About';
 import Home from './Components/Home';
 import Team from './Components/Team';
 import Winners from './Components/Winners';
@@ -55,10 +55,10 @@ export default class App extends Component {
                                     >Home</Menu.Item>
 
                                     <Menu.Item
-                                        name='events'
-                                        active={activeItem === 'events'}
+                                        name='about'
+                                        active={activeItem === 'about'}
                                         onClick={this.handleItemClick}
-                                    >Events</Menu.Item>
+                                    >About</Menu.Item>
 
                                     <Menu.Item
                                         name='winners'
@@ -80,7 +80,7 @@ export default class App extends Component {
 
                 <div>
                     {activeItem === 'home' && <Home />}
-                    {activeItem === 'events' && <Events />}
+                    {activeItem === 'about' && <About />}
                     {activeItem === 'winners' && <Winners />}
                     {activeItem === 'team' && <Team />}
                 </div>
